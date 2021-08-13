@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "start": "nodemon api/index.js"
+  },
+  "name": "backend",
+  "type": "module",
+  "description": "This is the API of Homefy App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Zechworld",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.3",
+    "nodemon": "^2.0.12"
+  }
+}
